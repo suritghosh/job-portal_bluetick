@@ -1,0 +1,37 @@
+body{
+    background-color: #f7f3ef;
+}
+.loadMoreBtn{
+    background-color: #ef6322;
+    padding: 12px 24px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btnContainer{
+    display: flex;
+    margin-left: 8%;
+}
+
+@media (max-width: 992px){
+    .btnContainer{
+        margin-left: 7%;
+    }
+}
+@media (max-width: 769px){
+    .btnContainer{
+        margin-left: 6%;
+    }
+}
+@media (max-width: 567px){
+    .loadMoreBtn{
+        padding: 7px 14px;
+        border-radius: 7px;
+        font-size: 11px;    
+    }
+    .btnContainer{
+        margin-left: 5%;
+    }
+}
+

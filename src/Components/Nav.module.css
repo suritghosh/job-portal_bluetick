@@ -1,0 +1,120 @@
+
+.nav{
+    background-color: white;
+    box-shadow: black 0px 0px 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:30px;
+}
+
+.head{
+    color: #ef6322;
+    /* position: relative;
+    right: 6%; */
+    font-weight: 700;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.iconContainer{
+    color: #ef6322;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+.icon{
+    /* padding: 0% 4%; */
+}
+input[type="search"] {
+    border-radius: 0.7em;
+    width: 30%;
+    padding: 0px 24px;
+    height: 42px;
+    border: none;
+    background-color: #f7f3ef;
+    /* position: relative;
+    right: 18%; */
+  }
+  input[type="search"]:focus {
+    outline: none;
+    border: 1px solid #dadada;
+    box-shadow: 0 0 5px #6b6b6b;
+  }
+.logoSearchContainer{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 3rem;
+    width: 80%;
+}
+
+@media (max-width: 992px) {
+    input[type="search"]  {
+        font-size: 10px;
+        height: 37px;
+    }
+    .head{
+        font-size: 17px;
+    }
+    .icon{
+        font-size: 13px;
+    }
+  }
+
+@media (max-width: 769px){
+    input[type="search"]  {
+        width: 35%;
+    }
+    .icon{
+        font-size: 11px;
+    }
+    .head{
+        font-size: 15px;
+    }
+}
+@media (max-width: 667px){
+    input[type="search"]  {
+        height: 32px;
+        font-size: 10px;
+        padding: 0 12px;
+    }
+    .head{
+        font-size: 13px;
+    }
+    .icon{
+        font-size: 9px;
+    }
+    .logoSearchContainer{
+        gap: 2rem;
+    }
+}
+@media (max-width: 576px){
+    input[type="search"]  {
+        height: 27px;
+        font-size: 8px;
+        padding: 0 10px;
+    }
+    .icon{
+        font-size: 7px;
+    }
+    .head{
+        font-size: 10px;
+    }
+    .logoSearchContainer{
+        gap: 1rem;
+    }
+}
+@media (max-width: 470px){
+    input[type="search"]  {
+        height: 20px;
+        font-size: 7px;
+        padding: 0 6px;
+    }
+    .icon{
+        font-size: 5px;
+    }
+    .head{
+        font-size: 8px;
+    }
+}
